@@ -41,7 +41,7 @@ ul{
     align-items: center;
     color: white;
     background-color: #1F2937;
-    padding: 8px;
+    padding: 24px;
     margin-top: auto;
 }
 .hero{
@@ -66,7 +66,7 @@ ul{
     width: 30vw;
     
 }
-button{
+.hero button{
     margin-right: auto ;
     padding: 10px;
     color: white;
@@ -142,4 +142,44 @@ button{
     margin-left: auto;
     padding-right: 150px;
 
+}
+
+.action{
+    padding: 48px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 20px;
+
+
+}
+.bigbttn{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    padding: 60px;
+    width: 950px;
+    border-radius: 20px;
+    gap: 30px;
+}
+.call{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;    
+}
+
+.call p, .call h3{
+    padding: 0;
+    margin: 0;
+}
+
+.bigbttn button{
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 13px;
 }
